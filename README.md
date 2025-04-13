@@ -26,12 +26,12 @@ The tool expects the following data organization within our CP prediction model 
 
 ```
 ./data/
-  ├── tracked_*.csv                         # CSV files containing joint tracking data (ore-selected windows from test data)
+  ├── tracked_*.csv                         # CSV files containing joint tracking data (pre-selected windows from test data)
   ├── video_fps_dict.json                   # Dictionary mapping video filenames to frame rates
   ├── cams_pvb_test.pkl                     # Pickled test data with CAM values and PVB input to model
   ├── percentiles_cam_lowrisk_trainval.pkl  # Velocity percentiles data
   ├── min_max_angles_trainval.pkl           # Angular percentiles reference data
-  └── filename_window_lowrisk.pkl           # Predefined windows for analysis
+  └── filename_window_lowrisk.pkl           # Predefined windows for angular perturbation analysis
 ```
 
 The CSV tracking files should contain joint position data for 19 body parts with the following format:
