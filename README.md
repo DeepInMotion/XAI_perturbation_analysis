@@ -1,6 +1,6 @@
 # XAI Perturbation Analysis Tool
 
-This repository contains modules for performing XAI-informed perturbation analysis on our CP prediction model. It analyzes how modifying the velocity or angle of different body keypoints affects classification outcomes.
+This repository contains scripts for performing XAI-informed perturbation analysis on our CP prediction model. It analyzes how modifying the velocity or angle of different body keypoints affects classification outcomes.
 
 ## Overview
 
