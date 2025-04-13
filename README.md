@@ -61,15 +61,8 @@ Each script will:
 
 The modules generate several output files:
 
-### Velocity Perturbation:
 - `cam_topk_lowrisk_test.pkl`: Perturbation results for top-k segments
 - `cam_nontopk_lowrisk_test.pkl`: Perturbation results for non-top-k segments
-- `cam_topk_lowrisk_test.xlsx`: Formatted Excel file with top-k results
-- `cam_nontopk_lowrisk_test.xlsx`: Formatted Excel file with non-top-k results
-
-### Angle Perturbation:
-- `cam_topk_lowrisk_test.pkl`: Perturbation results for top-k joints
-- `cam_nontopk_lowrisk_test.pkl`: Perturbation results for non-top-k joints
 - `cam_topk_lowrisk_test.xlsx`: Formatted Excel file with top-k results
 - `cam_nontopk_lowrisk_test.xlsx`: Formatted Excel file with non-top-k results
 
